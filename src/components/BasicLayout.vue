@@ -107,7 +107,7 @@
                   </tr>
 
                   <tr v-if="props.state.email" style="vertical-align: middle" height="22">
-                    <td style="padding: 0px" width="300">M:
+                    <td style="padding: 0px" width="300">E:
                       <a :href="`mailto:${props.state.email}`" color="#545454" style="
                           font-family: Arial, sans-serif;
                           color: #545454 !important;
