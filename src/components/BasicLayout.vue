@@ -131,7 +131,7 @@
                             font-size: 13px;
                             line-height: 14px;
                           ">
-                          <i class="fas fa-band-aid"></i>Facebook </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
+                          <i class="fas fa-band-aid"></i>
                       </span>
                       <span color="#767676" style="font-family: Arial, sans-serif">
                         <a href="https://www.linkedin.com/in/tom-watts-perth/" target="_blank" color="#767676" style="
