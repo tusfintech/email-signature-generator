@@ -9,7 +9,7 @@
     <tbody>
       <tr>
         <td width="100" height="100" style="width: 100px; max-width: 100px; vertical-align: top">
-          <a href="https://tomwatts.dev/" style="display: block; width: 100px">
+          <a href="https://tusfintech.mn/" style="display: block; width: 100px">
             <img width="100" height="100" style="
                 width: 100px;
                 min-width: 100px;
@@ -45,7 +45,7 @@
                       font-size: 15px;
                       line-height: 22px;
                       font-weight: bold;
-                    ">{{ props.state.name || "Tom Watts" }}</span>
+                    ">{{ props.state.name || "Овог Нэр" }}</span>
                 </td>
               </tr>
 
@@ -57,7 +57,7 @@
                       font-weight: 500;
                       font-size: 13px;
                       line-height: 18px;
-                    ">{{ props.state.jobTitle || "Assistant to the Regional Manager" }}</span>
+                    ">{{ props.state.jobTitle || "Албан тушаал" }}</span>
                 </td>
               </tr>
 
@@ -69,7 +69,7 @@
                       font-size: 13px;
                       line-height: 19px;
                       font-weight: 400;
-                    ">{{ props.state.location || "Perth, Australia" }}</span>
+                    ">{{ props.state.location || "" }}</span>
                 </td>
               </tr>
 
@@ -134,7 +134,7 @@
                   <tr style="vertical-align: middle" height="22">
                     <td style="padding: 0px" width="300">
                       <span color="#767676" style="font-family: Arial, sans-serif">
-                        <a href="https://tomwatts.dev/" target="_blank" color="#767676" style="
+                        <a href="https://tusfintech.mn/" target="_blank" color="#767676" style="
                             font-family: Arial, sans-serif;
                             text-decoration: none !important;
                             color: #767676 !important;
