@@ -159,7 +159,7 @@
                   </g>
                 </svg>
               </span>
-              Copy signature to clipboard
+              Гарын үсэг хуулж авах
             </button>
 
             <button
