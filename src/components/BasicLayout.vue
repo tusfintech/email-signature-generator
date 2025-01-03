@@ -141,17 +141,7 @@
                             font-size: 13px;
                             line-height: 14px;
                           ">
-                          LinkedIn </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
-                      </span>
-                      <span color="#767676" style="font-family: Arial, sans-serif">
-                        <a href="https://www.instagram.com/" target="_blank" color="#767676" style="
-                            font-family: Arial, sans-serif;
-                            text-decoration: none !important;
-                            color: #767676 !important;
-                            font-weight: 400;
-                            font-size: 13px;
-                            line-height: 14px;
-                          ">Вебсайт</a>
+                          Вебсайт </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
                       </span>
                     </td>
                   </tr>
