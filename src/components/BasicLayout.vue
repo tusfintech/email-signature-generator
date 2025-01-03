@@ -96,7 +96,7 @@
                 ">
                 <tbody>
                   <tr v-if="props.state.phone" style="vertical-align: middle" height="22">
-                    <td style="padding: 0px" width="300">P:<a :href="`tel:${formattedPhone}`" color="#545454" style="
+                    <td style="padding: 0px" width="300">P: <a :href="`tel:${formattedPhone}`" color="#545454" style="
                           font-family: Arial, sans-serif;
                           color: #545454 !important;
                           font-size: 13px;
