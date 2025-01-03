@@ -96,7 +96,7 @@
                 ">
                 <tbody>
                   <tr v-if="props.state.phone" style="vertical-align: middle" height="22">
-                    <td style="padding: 0px" width="300"><svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <td style="padding: 0px" width="300"><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
 </svg> <a :href="`tel:${formattedPhone}`" color="#545454" style="
                           font-family: Arial, sans-serif;
