@@ -22,7 +22,7 @@
       <div class="column is-narrow">
         <div class="form-contain is-align-self-flex-start is-flex-grow-0 is-flex-shrink-0">
           <div class="field">
-            <label class="label">Signature layout</label>
+            <label class="label">Мэдээлэл оруулах</label>
             <div class="control">
               <div class="buttons has-addons">
                 <button
@@ -50,40 +50,30 @@
             </div>
 
             <div v-else class="field">
-              <label class="label">Full name</label>
+              <label class="label">Овог нэр</label>
               <div class="control">
                 <input
                   v-model="state.name"
                   class="input"
                   type="text"
-                  placeholder="Tom Watts"
+                  placeholder="Жаргалсайхан Баяр"
                 />
               </div>
             </div>
 
             <div class="field">
-              <label class="label">Position</label>
+              <label class="label">Албан тушаал</label>
               <div class="control">
                 <input
                   v-model="state.jobTitle"
                   class="input"
                   type="text"
-                  placeholder="Assistant to the Regional Manager"
+                  placeholder="Бизнес менежер"
                 />
               </div>
             </div>
 
-            <div class="field">
-              <label class="label">Location</label>
-              <div class="control">
-                <input
-                  v-model="state.location"
-                  class="input"
-                  type="text"
-                  placeholder="Perth, Australia"
-                />
-              </div>
-            </div>
+            
 
             <div class="field">
               <label class="label">Email {{ state.signatureType === 'basic' ? '(optional)' : '' }}</label>
