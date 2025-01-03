@@ -22,7 +22,7 @@
       <div class="column is-narrow">
         <div class="form-contain is-align-self-flex-start is-flex-grow-0 is-flex-shrink-0">
           <div class="field">
-            <label class="label">Мэдээлэл оруулах</label>
+            <label class="label">Мэдээлэл оруулах хэсэг</label>
             <div class="control">
               <div class="buttons has-addons">
 
