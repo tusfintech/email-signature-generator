@@ -71,7 +71,7 @@
             
 
             <div class="field">
-              <label class="label">И-мэйл хаяг {{ state.signatureType === 'basic' ? '(optional)' : '' }}</label>
+              <label class="label">И-мэйл хаяг {{ state.signatureType === 'basic' ? '' : '' }}</label>
               <p class="control is-flex-grow-1">
                 <input
                   v-model="state.email"
@@ -84,7 +84,7 @@
             </div>
 
             <div class="field">
-              <label class="label">Утасны дугаар {{ state.signatureType === 'basic' ? '(optional)' : '' }}</label>
+              <label class="label">Утасны дугаар {{ state.signatureType === 'basic' ? '' : '' }}</label>
               <div class="control">
                 <input
                   v-model="state.phone"
@@ -115,18 +115,19 @@
 
       <div class="column">
         <div style="max-width: 712px; margin: 0 auto">
-          <h2 class="title has-text-weight-bold is-spaced is-2 mb-5">
-            ТУС ФИНТЕК ББСБ ХХК и-мэйл signature generator
+          <h3 class="title has-text-weight-bold is-spaced is-2 mb-5">
+            Тус Финтек ББСБ ХХК-ийн и-мэйл гарын үсэг үүсгэгч
           </h2>
           <div style="max-width: 600px">
             <p class="mb-2">
-              Fill out the form on the left and use the buttons below to either
-              copy or download the signature.
+              Та хажуу талд байгаа хэсгүүдийг бөглөөд гарын үсгээ хуулж авах боломжтой.
             </p>
             <p class="mb-5">
               Most email clients will simply let you copy and paste the
               signature directly into the signature field in settings. If you're
               having issues, see the instructions below.
+
+              Ихэнх и-мэйл программууд нь хуулж аваад, оруулахад хэвийн ажилладаг. Тэгэхдээ танд асуудал гарч байвал доорх заавруудыг уншина уу.
             </p>
           </div>
           <div class="buttons mb-5">
