@@ -115,7 +115,7 @@
 
       <div class="column">
         <div style="max-width: 712px; margin: 0 auto">
-          <h3 class="title has-text-weight-bold is-spaced is-2 mb-5">
+          <h2 class="title has-text-weight-bold is-spaced is-2 mb-5">
             Тус Финтек ББСБ ХХК-ийн и-мэйл гарын үсэг үүсгэгч
           </h2>
           <div style="max-width: 600px">
