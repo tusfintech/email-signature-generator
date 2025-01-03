@@ -96,7 +96,7 @@
                 ">
                 <tbody>
                   <tr v-if="props.state.phone" style="vertical-align: middle" height="22">
-                    <td style="padding: 0px" width="300">
+                    <td style="padding: 0px" width="300">Facebook
                       <a :href="`tel:${formattedPhone}`" color="#545454" style="
                           font-family: Arial, sans-serif;
                           color: #545454 !important;
@@ -131,7 +131,7 @@
                             font-size: 13px;
                             line-height: 14px;
                           ">
-                          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/1024px-Facebook_f_logo_%282021%29.svg.png?20210818083032" alt="Flowers in Chania"></a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
+                          Facebook </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
                       </span>
                       <span color="#767676" style="font-family: Arial, sans-serif">
                         <a href="https://www.linkedin.com/in/tom-watts-perth/" target="_blank" color="#767676" style="
