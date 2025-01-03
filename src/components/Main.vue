@@ -25,12 +25,7 @@
             <label class="label">Мэдээлэл оруулах</label>
             <div class="control">
               <div class="buttons has-addons">
-                <button
-                  :class="`button ${state.signatureType === 'basic' ? 'is-selected is-primary has-text-weight-semibold' : ''}`"
-                  @click="state.signatureType = 'basic';"
-                >
-                  Basic
-                </button>
+
               </div>
             </div>
           </div>
@@ -76,26 +71,26 @@
             
 
             <div class="field">
-              <label class="label">Email {{ state.signatureType === 'basic' ? '(optional)' : '' }}</label>
+              <label class="label">И-мэйл хаяг {{ state.signatureType === 'basic' ? '(optional)' : '' }}</label>
               <p class="control is-flex-grow-1">
                 <input
                   v-model="state.email"
                   class="input"
                   type="email"
-                  placeholder="hello@companyemail.com"
+                  placeholder="hello@gmail.com"
                   @keyup="state.email = $event.target.value"
                 />
               </p>
             </div>
 
             <div class="field">
-              <label class="label">Phone number {{ state.signatureType === 'basic' ? '(optional)' : '' }}</label>
+              <label class="label">Утасны дугаар {{ state.signatureType === 'basic' ? '(optional)' : '' }}</label>
               <div class="control">
                 <input
                   v-model="state.phone"
                   class="input"
                   type="tel"
-                  placeholder="0412 345 678"
+                  placeholder="9188-0000"
                 />
               </div>
             </div>
@@ -113,14 +108,7 @@
               </div>
             </div>
 
-            <div class="field">
-              <label class="label">Additional note (optional)</label>
-              <textarea
-                v-model="state.note"
-                class="textarea"
-                placeholder="Please note I will be on leave from Friday 1st January until Tuesday 5th January."
-              />
-            </div>
+          
           </form>
         </div>
       </div>
@@ -128,7 +116,7 @@
       <div class="column">
         <div style="max-width: 712px; margin: 0 auto">
           <h2 class="title has-text-weight-bold is-spaced is-2 mb-5">
-            Company Signature Generator
+            ТУС ФИНТЕК ББСБ ХХК и-мэйл signature generator
           </h2>
           <div style="max-width: 600px">
             <p class="mb-2">
