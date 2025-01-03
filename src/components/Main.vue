@@ -120,14 +120,11 @@
           </h2>
           <div style="max-width: 600px">
             <p class="mb-2">
-              Та хажуу талд байгаа хэсгүүдийг бөглөөд гарын үсгээ хуулж авах боломжтой.
+              Та хажуу талд байгаа хэсгүүдийг бөглөөд гарын үсгээ хуулж аваад ашиглах боломжтой.
             </p>
             <p class="mb-5">
-              Most email clients will simply let you copy and paste the
-              signature directly into the signature field in settings. If you're
-              having issues, see the instructions below.
-
-              Ихэнх и-мэйл программууд нь хуулж аваад, оруулахад хэвийн ажилладаг. Тэгэхдээ танд асуудал гарч байвал доорх заавруудыг уншина уу.
+             Ихэнх и-мэйл программууд нь хуулж аваад, оруулахад хэвийн ажилладаг.
+             Тэгэхдээ танд асуудал гарч байвал доорх заавруудыг уншина уу.
             </p>
           </div>
           <div class="buttons mb-5">
@@ -191,7 +188,7 @@
             </button>
           </div>
 
-          <h4 class="title is-4">Email client instructions</h4>
+          <h4 class="title is-4">И0мэйл программуудын заавар</h4>
 
           <InstructionTabs />
         </div>
@@ -211,7 +208,7 @@
       z-index: 100;
     "
   >
-    Copied to clipboard!
+    Амжилттай хуулагдлаа!
   </div>
 </template>
 
