@@ -121,17 +121,7 @@
 
                   <tr style="vertical-align: middle" height="22">
                     <td style="padding: 0px" width="300">
-                      <span color="#767676" style="font-family: Arial, sans-serif">
-                        <a href="https://tusfintech.mn/" target="_blank" color="#767676" style="
-                            font-family: Arial, sans-serif;
-                            text-decoration: none !important;
-                            color: #767676 !important;
-                            font-weight: 700;
-                            font-size: 13px;
-                            line-height: 14px;
-                          ">
-                          tomwatts.dev </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
-                      </span>
+                    
                       <span color="#767676" style="font-family: Arial, sans-serif">
                         <a href="https://www.facebook.com/" target="_blank" color="#767676" style="
                             font-family: Arial, sans-serif;
@@ -141,7 +131,7 @@
                             font-size: 13px;
                             line-height: 14px;
                           ">
-                          Facebook </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
+                          <i class="fas fa-band-aid"></i>Facebook </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
                       </span>
                       <span color="#767676" style="font-family: Arial, sans-serif">
                         <a href="https://www.linkedin.com/in/tom-watts-perth/" target="_blank" color="#767676" style="
