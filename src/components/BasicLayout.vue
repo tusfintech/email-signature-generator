@@ -141,7 +141,7 @@
                             font-size: 13px;
                             line-height: 14px;
                           ">
-                          Вебсайт </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
+                          Вебсайт </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;</span>
                       </span>
                     </td>
                   </tr>
