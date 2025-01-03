@@ -96,9 +96,7 @@
                 ">
                 <tbody>
                   <tr v-if="props.state.phone" style="vertical-align: middle" height="22">
-                    <td style="padding: 0px" width="300"><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
-</svg> <a :href="`tel:${formattedPhone}`" color="#545454" style="
+                    <td style="padding: 0px" width="300">P:<a :href="`tel:${formattedPhone}`" color="#545454" style="
                           font-family: Arial, sans-serif;
                           color: #545454 !important;
                           font-size: 13px;
@@ -109,7 +107,7 @@
                   </tr>
 
                   <tr v-if="props.state.email" style="vertical-align: middle" height="22">
-                    <td style="padding: 0px" width="300">
+                    <td style="padding: 0px" width="300">M:
                       <a :href="`mailto:${props.state.email}`" color="#545454" style="
                           font-family: Arial, sans-serif;
                           color: #545454 !important;
@@ -124,7 +122,7 @@
                     <td style="padding: 0px" width="300">
                     
                       <span color="#767676" style="font-family: Arial, sans-serif">
-                        <a href="https://www.facebook.com/" target="_blank" color="#767676" style="
+                        <a href="https://www.facebook.com/tusfintech.mn" target="_blank" color="#767676" style="
                             font-family: Arial, sans-serif;
                             text-decoration: none !important;
                             color: #767676 !important;
@@ -135,7 +133,7 @@
                           Facebook </a><span style="color: #8e8e8e !important; font-weight: 300">&nbsp;|&nbsp;</span>
                       </span>
                       <span color="#767676" style="font-family: Arial, sans-serif">
-                        <a href="https://www.linkedin.com/in/tom-watts-perth/" target="_blank" color="#767676" style="
+                        <a href="https://www.tusfintech.mn" target="_blank" color="#767676" style="
                             font-family: Arial, sans-serif;
                             text-decoration: none !important;
                             color: #767676 !important;
@@ -153,7 +151,7 @@
                             font-weight: 400;
                             font-size: 13px;
                             line-height: 14px;
-                          ">Instagram</a>
+                          ">Вебсайт</a>
                       </span>
                     </td>
                   </tr>
