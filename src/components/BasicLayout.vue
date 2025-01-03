@@ -1,3 +1,4 @@
+<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
 <template>
   <table width="auto" cellspacing="0" cellpadding="0" border="0" style="
       margin: 0px;
@@ -96,7 +97,7 @@
                 ">
                 <tbody>
                   <tr v-if="props.state.phone" style="vertical-align: middle" height="22">
-                    <td style="padding: 0px" width="300">Facebook
+                    <td style="padding: 0px" width="300"><i class="material-icons">keyboard_arrow_down</i>
                       <a :href="`tel:${formattedPhone}`" color="#545454" style="
                           font-family: Arial, sans-serif;
                           color: #545454 !important;
