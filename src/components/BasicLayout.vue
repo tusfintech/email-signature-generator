@@ -61,18 +61,6 @@
                 </td>
               </tr>
 
-              <tr style="vertical-align: middle" height="19">
-                <td style="padding: 0px">
-                  <span style="
-                      font-family: Arial, sans-serif;
-                      color: #545454;
-                      font-size: 13px;
-                      line-height: 19px;
-                      font-weight: 400;
-                    ">{{ props.state.location || "" }}</span>
-                </td>
-              </tr>
-
               <table cellpadding="0" cellspacing="0" style="vertical-align: -webkit-baseline-middle; width: 100%">
                 <tbody>
                   <tr>
