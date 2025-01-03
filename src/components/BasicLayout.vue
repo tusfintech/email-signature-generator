@@ -17,7 +17,7 @@
                 height: 100px;
                 min-height: 100px;
                 border: none;
-              " src="https://tomwatts.s3.ap-southeast-2.amazonaws.com/logo.png" /></a>
+              " src="https://tusfintech.mn/wp-content/uploads/2024/05/Logo-1.png" /></a>
         </td>
         <td width="18" style="
             width: 18px;
