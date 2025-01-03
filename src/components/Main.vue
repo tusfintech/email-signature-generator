@@ -31,12 +31,6 @@
                 >
                   Basic
                 </button>
-                <button
-                  :class="`button ${state.signatureType === 'sales' ? 'is-selected is-primary has-text-weight-semibold' : ''}`"
-                  @click="state.signatureType = 'sales'"
-                >
-                  Sales
-                </button>
               </div>
             </div>
           </div>
