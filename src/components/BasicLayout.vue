@@ -96,12 +96,12 @@
                 ">
                 <tbody>
                   <tr v-if="props.state.phone" style="vertical-align: middle" height="22">
-                    <td style="padding: 0px" width="300"><img :src="`${iconBase}phone.png`" width="14" height="14" alt="Утас" style="
-                          width: 14px;
-                          height: 14px;
+                    <td style="padding: 0px" width="300"><img :src="`${iconBase}phone.png`" width="16" height="16" alt="Утас" style="
+                          width: 16px;
+                          height: 16px;
                           border: none;
                           vertical-align: middle;
-                          margin-right: 6px;
+                          margin-right: 8px;
                         " /><a :href="`tel:${formattedPhone}`" color="#545454" style="
                           font-family: Arial, sans-serif;
                           color: #545454 !important;
@@ -113,12 +113,12 @@
                   </tr>
 
                   <tr v-if="props.state.email" style="vertical-align: middle" height="22">
-                    <td style="padding: 0px" width="300"><img :src="`${iconBase}email.png`" width="14" height="14" alt="Имэйл" style="
-                          width: 14px;
-                          height: 14px;
+                    <td style="padding: 0px" width="300"><img :src="`${iconBase}email.png`" width="16" height="16" alt="Имэйл" style="
+                          width: 16px;
+                          height: 16px;
                           border: none;
                           vertical-align: middle;
-                          margin-right: 6px;
+                          margin-right: 8px;
                         " /><a :href="`mailto:${props.state.email}`" color="#545454" style="
                           font-family: Arial, sans-serif;
                           color: #545454 !important;
@@ -212,8 +212,8 @@ const props = defineProps({
 
 // Icons must be reachable from the recipient's mail app, so the address is absolute:
 // VITE_ICON_BASE (e.g. https://tusfintech.mn/wp-content/uploads/2025/01/) if set,
-// otherwise the site this generator is served from (public/icons/).
-const iconBase = import.meta.env.VITE_ICON_BASE || `${window.location.origin}/icons/`;
+// otherwise the site this generator is served from (public/).
+const iconBase = import.meta.env.VITE_ICON_BASE || `${window.location.origin}/`;
 
 const formattedPhone = computed(() => {
   if (!props.state.phone) return "";
