@@ -17,7 +17,7 @@
                 height: 100px;
                 min-height: 100px;
                 border: none;
-              " src="`${iconBase}email_logo.png" /></a>
+              " :src="`${iconBase}${LOGO_FILE}`" alt="ТУС ФИНТЕК" /></a>
         </td>
         <td width="18" style="
             width: 18px;
@@ -214,6 +214,8 @@ const props = defineProps({
 // VITE_ICON_BASE (e.g. https://tusfintech.mn/wp-content/uploads/2025/01/) if set,
 // otherwise the site this generator is served from (public/).
 const iconBase = import.meta.env.VITE_ICON_BASE || `${window.location.origin}/`;
+// Logo image in public/, loaded the same way as the icons.
+const LOGO_FILE = "email_logo.png";
 
 const formattedPhone = computed(() => {
   if (!props.state.phone) return "";
